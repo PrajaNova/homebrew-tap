@@ -1,30 +1,30 @@
 class Avm < Formula
   desc "Any Version Manager with aliases, shims, and provider plugins"
   homepage "https://github.com/prajanova/avm"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/prajanova/avm/releases/download/v0.4.0/avm_darwin_arm64.tar.gz"
-      sha256 "518e6d99cb93491b56e894f982591c02cbe48bef663e88fae77ad6134968a5fe"
+      url "https://github.com/prajanova/avm/releases/download/v0.4.1/avm_darwin_arm64.tar.gz"
+      sha256 "9d2f7ddd0b28f1bff573e07431009e4ae506bc88a108e091e9c87f5b4be5dbfc"
     end
 
     on_intel do
-      url "https://github.com/prajanova/avm/releases/download/v0.4.0/avm_darwin_amd64.tar.gz"
-      sha256 "d3692e47a7c0ee7d6d850ca573740352fefdbc5871caf5f89c83965b51f170e0"
+      url "https://github.com/prajanova/avm/releases/download/v0.4.1/avm_darwin_amd64.tar.gz"
+      sha256 "543f9571243cd529d66b8fee29c181b901d7236054bade1ddd36f645e8e14b95"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/prajanova/avm/releases/download/v0.4.0/avm_linux_arm64.tar.gz"
-      sha256 "0f2a7875d387bf5dd8683daf7fc245d1c59c2fe2055f65b6d88d42ed3342dbde"
+      url "https://github.com/prajanova/avm/releases/download/v0.4.1/avm_linux_arm64.tar.gz"
+      sha256 "82c65af964cf0e2bc1d0932311eb76f7ef1dec00e97f15848c7321ea73e2c95f"
     end
 
     on_intel do
-      url "https://github.com/prajanova/avm/releases/download/v0.4.0/avm_linux_amd64.tar.gz"
-      sha256 "c26a8c7bf12eb4ae0b554bfd4bbd410beb74c80c8a563239e7d5c042abfb23bf"
+      url "https://github.com/prajanova/avm/releases/download/v0.4.1/avm_linux_amd64.tar.gz"
+      sha256 "9a39a929e18c2b1d5249aea13bbaf4012823bf9028c7a8aaff1ba5c3fca34d19"
     end
   end
 
